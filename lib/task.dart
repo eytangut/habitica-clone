@@ -1,17 +1,3 @@
-enum IsPositive {
-  positive,
-  negative,
-  both
-}
-enum IsCompleted {
-  yes,
-  no,
-}
-enum TaskType{
-  task,
-  habit,
-  daily
-}
 
 class Task {
   String title;
