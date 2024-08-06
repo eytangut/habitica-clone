@@ -57,6 +57,7 @@ class _TaskCreationFormState extends State<TaskCreationForm> {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(content: const Text('Task removed!')),
     );
+    _saveTasksToCSV(_tasks);
   }
   @override
   void initState() {
